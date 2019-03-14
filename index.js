@@ -1,7 +1,7 @@
 var katzDeliLine = [];
 var lineNumber = 0;
 
-function takeANumber(katzDeli, lineNumber)
+function takeANumber(katzDeli)
 {
   lineNumber++;
   katzDeli.push(lineNumber);
