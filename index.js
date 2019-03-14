@@ -1,9 +1,10 @@
 var katzDeliLine = [];
-
-function takeANumber(katzDeli, name)
+var lineNumber = 0;
+function takeANumber(katzDeli, lineNumber)
 {
-  katzDeli.push(name);
-  return("Welcome, " + name + ". You are number " + katzDeli.length + " in line.");
+  lineNumber++;
+  katzDeli.push(lineNumber);
+  return(`Now serving: ${lineNumber}`);
 }
 
 function nowServing(currentLine)
